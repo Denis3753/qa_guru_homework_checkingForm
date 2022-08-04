@@ -40,7 +40,7 @@ public class CheckingForm {
         $("#subjectsInput").setValue("En").pressEnter();
         $("[for=hobbies-checkbox-2]").click();
         $("#currentAddress").setValue("г. Москва, ул. новый Арбат 1");
-        $("#uploadPicture").uploadFile(new File("src/test/java/picture/qa.png"));
+        $("#uploadPicture").uploadFile(new File("src/test/resources/qa.png"));
         $("#react-select-3-input").scrollTo().setValue("NC").pressEnter();
         $("#react-select-4-input").setValue("Gu").pressEnter();
         $("#submit").scrollIntoView(false).pressEnter();
